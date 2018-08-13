@@ -3,6 +3,9 @@
     <groupId>com.library</groupId>
     <artifactId>library-app</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <modules>
+        <module>libraryapp-module</module>
+    </modules>
     <packaging>pom</packaging>
 
     <properties>
