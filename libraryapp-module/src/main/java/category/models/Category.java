@@ -1,4 +1,4 @@
-package models;
+package category.models;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -21,7 +21,6 @@ public class Category implements Serializable {
     public Category(String name) {
         this.name = name;
     }
-
 
     public Long getId() {
         return id;
