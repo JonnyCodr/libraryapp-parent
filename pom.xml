@@ -12,12 +12,12 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <category.repositories>
-        <repository>
-            <id>JBoss repository</id>
-            <url>https://repository.jboss.org/nexus/content/groups/public-jboss/</url>
-        </repository>
-    </category.repositories>
+    <!--<category.repositories>-->
+        <!--<repository>-->
+            <!--<id>JBoss repository</id>-->
+            <!--<url>https://repository.jboss.org/nexus/content/groups/public-jboss/</url>-->
+        <!--</repository>-->
+    <!--</category.repositories>-->
 
     <build>
         <pluginManagement>
