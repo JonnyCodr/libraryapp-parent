@@ -1,4 +1,4 @@
-package exceptions;
+package category.exceptions;
 
 public class CategoryNotFoundException  extends RuntimeException {
 

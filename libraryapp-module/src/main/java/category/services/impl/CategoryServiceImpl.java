@@ -3,9 +3,9 @@ package category.services.impl;
 import category.models.Category;
 import category.repositories.CategoryRepository;
 import category.services.CategoryService;
-import exceptions.CategoryAlreadyExistsException;
-import exceptions.CategoryNotFoundException;
-import exceptions.FieldNotValidException;
+import category.exceptions.CategoryAlreadyExistsException;
+import category.exceptions.CategoryNotFoundException;
+import category.exceptions.FieldNotValidException;
 
 
 import javax.validation.Validator;

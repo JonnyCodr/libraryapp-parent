@@ -1,4 +1,4 @@
-package exceptions;
+package category.exceptions;
 
 public class FieldNotValidException extends RuntimeException {
     private static final Long serialVersionUID = 1L;

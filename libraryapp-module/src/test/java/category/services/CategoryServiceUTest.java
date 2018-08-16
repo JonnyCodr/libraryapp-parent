@@ -3,11 +3,9 @@ package category.services;
 import category.models.Category;
 import category.repositories.CategoryRepository;
 import category.services.impl.CategoryServiceImpl;
-import exceptions.CategoryAlreadyExistsException;
-import exceptions.CategoryNotFoundException;
-import exceptions.FieldNotValidException;
-import jdk.nashorn.internal.runtime.linker.LinkerCallSite;
-import org.junit.After;
+import category.exceptions.CategoryAlreadyExistsException;
+import category.exceptions.CategoryNotFoundException;
+import category.exceptions.FieldNotValidException;
 import org.junit.Before;
 import org.junit.Test;
 

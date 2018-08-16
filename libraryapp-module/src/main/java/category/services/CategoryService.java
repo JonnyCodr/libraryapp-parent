@@ -1,9 +1,9 @@
 package category.services;
 
 import category.models.Category;
-import exceptions.CategoryAlreadyExistsException;
-import exceptions.CategoryNotFoundException;
-import exceptions.FieldNotValidException;
+import category.exceptions.CategoryAlreadyExistsException;
+import category.exceptions.CategoryNotFoundException;
+import category.exceptions.FieldNotValidException;
 
 import java.util.List;
 
